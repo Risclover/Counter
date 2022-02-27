@@ -1,0 +1,138 @@
+body, html {
+    font-size: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0A1F38;
+    color: #FDFEFF;
+}
+
+body {
+    max-height: 100%;
+}
+
+.main-container {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #153F6F;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+
+}
+
+button {
+    margin: 0 20px;
+    width: 70px;
+    height: 40px;
+    background: none;
+    border: none;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+input {
+    caret-color: white;
+    background: none;
+    color: white;
+}
+
+.reset {
+    color: #ffffff;
+    background-color: #153F6F;
+    border-radius: 3px;
+}
+
+.reset:hover {
+    background-color: #6DA4E3;
+    color: white;
+}
+
+.plus, .minus {
+    color: white;
+    background-color: #153F6F;
+    border-radius: 3px;
+    border: none;
+}
+
+.plus:hover, .minus:hover {
+    color: white;
+    background-color: #6DA4E3;
+}
+
+
+.countbox {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    font-size: 1rem;
+}
+
+
+.countchange{
+    display: none;
+    width: auto;
+    position: relative;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color:#153F6F;
+}
+
+footer a {
+    color: #6DA4E3;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
